@@ -8,6 +8,7 @@ git:
    depth: 3
 
 script:
-    - xcodebuild -scheme Graph -project Graph.xcodeproj -sdk iphonesimulator -destination 'OS=9.3,name=iPhone 6s Plus' build test | xcpretty
+    - open -b com.apple.iphonesimulator
+    - xcodebuild build test -scheme Graph -project Graph.xcodeproj -sdk iphonesimulator -destination 'OS=9.3,name=iPhone 6s Plus' | xcpretty
 after_success:
     - bash <(curl -s https://codecov.io/bash) -J 'Graph'
