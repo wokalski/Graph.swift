@@ -14,6 +14,7 @@
 		C95653931CBA908900F90AD2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95653911CBA908900F90AD2 /* Queue.swift */; };
 		C95653971CBA96EF00F90AD2 /* SearchStateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95653961CBA96EF00F90AD2 /* SearchStateUtils.swift */; };
 		C95653991CBADB4000F90AD2 /* TestGraphGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95653981CBADB4000F90AD2 /* TestGraphGenerator.swift */; };
+		C9FC828B1CBC00A800AC8CD8 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95653911CBA908900F90AD2 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -219,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C95653991CBADB4000F90AD2 /* TestGraphGenerator.swift in Sources */,
+				C9FC828B1CBC00A800AC8CD8 /* Queue.swift in Sources */,
 				C95653861CBA904F00F90AD2 /* GraphTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
