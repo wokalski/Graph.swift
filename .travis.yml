@@ -9,6 +9,6 @@ before_install:
     - brew upgrade xctool --HEAD
 
 script:
-    - xctool project Graph.xcodeproj -scheme Graph -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES build test 
+    - xctool project Graph.xcodeproj -scheme Graph build test  -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
 after_success:
     - bash <(curl -s https://codecov.io/bash)
